@@ -33,7 +33,7 @@ const sortedRobots = robots.map( function(robot) {
   }
 })
 
-var coloredZebraStripes = zebraStripes.map(function(zebra, i){
+const coloredZebraStripes = zebraStripes.map(function(zebra, i){
   if (i%2 === 0){
     return Object.assign({}, zebra, {
       width: zebra.width,
